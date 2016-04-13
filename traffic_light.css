@@ -1,0 +1,53 @@
+@font-face {
+    font-family: LED;
+    src: url('LED.ttf');
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+#traffic_container{
+    background-color: #717171;
+    color: red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#traffic_light{
+    margin-top: 0;
+    height: 350px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: #454545;
+}
+
+#second{
+    text-align: center;
+    font: 35px LED;
+}
+#pool{
+    margin-top: 0px;
+    height: 1px;
+}
+.lamp{
+    margin-top: 10px;
+    width: 100%;
+    height: 30%;
+    border-radius: 100%;
+}
+#red{
+    background: #3a0000;
+}
+#yellow{
+    background: #464600;
+}
+#green{
+    background: #003000;
+}
